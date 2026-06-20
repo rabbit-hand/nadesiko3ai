@@ -68,7 +68,7 @@
     "extlib:install": "node src/cnako3.mjs batch/download-extlib.nako3",
     "check_new_version": "node src/cnako3.mjs tools/check_new_version.nako3",
     "hello": "node src/cnako3.mjs -e \"「hello」と表示\"",
-    "health": "curl -f http://localhost:3000/health || echo 'Service not running'"
+    "health": "curl -f http://localhost:3000/health || echo 'Service not Running'"
   },
   "repository": {
     "type": "git",
@@ -114,8 +114,8 @@
     "utils": "/utils"
   },
   "devDependencies": {
-    "@babel/core": "^7.29.0",
-    "@babel/preset-env": "^7.29.2",
+    "@babel/core": "7.29.0",
+    "@babel/preset-env": "7.29.2",
     "@eslint/js": "^9.39.3",
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^25.0.10",
